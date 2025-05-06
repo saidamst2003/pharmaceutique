@@ -1,4 +1,8 @@
 package com.java.pharmaceutique.Repository;
 
-public class Productrepo {
+import com.java.pharmaceutique.Entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Productrepo extends JpaRepository <Product, Long> {
+
 }
